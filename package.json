@@ -1,0 +1,30 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Realtime chat app using socket.io and vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "serve": "node server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "request": "^2.88.2",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajain09/Cyberbullying-detection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajain09/Cyberbullying-detection/issues"
+  },
+  "homepage": "https://github.com/ajain09/Cyberbullying-detection#readme"
+}
